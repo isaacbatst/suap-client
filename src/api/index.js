@@ -1,13 +1,13 @@
-import axios from 'axios';
+const axios = require('axios');
 
-import * as URLS from '../constants/urls';
+const URLS = require('../constants/urls');
 
 const api = axios.create({
   baseURL: URLS.BASE,
   timeout: 20000
 })
 
-export const requestResources = token => {
+const requestResources = token => {
   return api.get(URLS.RESOURCES, {
     data: { 'scope': scope },
     headers: {
@@ -17,6 +17,11 @@ export const requestResources = token => {
   })
 }
 
-export const requestLogout = data => {
+const requestLogout = data => {
   return api.post(URLS.LOGOUT, { data })
+}
+
+module.exports = {
+  requestLogout,
+  requestResources
 }

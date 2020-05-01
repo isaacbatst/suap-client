@@ -1,7 +1,8 @@
-import Cookies from 'js-cookie';
-import COOKIES from '../../constants/cookies';
+const Cookies = require('js-cookie');
 
-export default ({ data: { token, finishTime, scope }, updateData }) => {
+const COOKIES = require('../../constants/cookies')
+
+module.exports = ({ data: { token, finishTime, scope }, updateData }) => {
   const { setToken, setFinishTime, setScope } = updateData;
   
   updateTokenCookie();

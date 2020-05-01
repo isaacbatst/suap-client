@@ -1,6 +1,6 @@
-import handleCookies from '../cookiesHandler';
+const handleCookies = require('../cookiesHandler');
 
-export default ({ token, duration: expirationTimeInSeconds, scope }) => {
+module.exports = ({ token, duration: expirationTimeInSeconds, scope }) => {
   let startTimeInMilliseconds = new Date().getTime();
   let finishTime = new Date(startTimeInMilliseconds + expirationTimeInSeconds * 1000);
 

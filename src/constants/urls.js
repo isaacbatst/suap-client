@@ -1,6 +1,14 @@
-export const BASE = 'https://suap.ifrn.edu.br';
+const BASE = 'https://suap.ifrn.edu.br';
 
-export const RESOURCES = '/api/eu/';
-export const AUTHORIZATION = '/o/authorize/';
-export const LOGOUT = '/o/revoke_token/';
-export const REGISTER = '/o/revoke_token/';
+const RESOURCES = '/api/eu/';
+const AUTHORIZATION = '/o/authorize/';
+const LOGOUT = '/o/revoke_token/';
+const REGISTER = '/o/revoke_token/';
+
+module.exports = {
+  BASE,
+  RESOURCES,
+  AUTHORIZATION,
+  LOGOUT,
+  REGISTER
+}

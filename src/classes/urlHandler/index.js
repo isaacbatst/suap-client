@@ -30,6 +30,6 @@ const getUrlParams = () => {
   }
 }
 
-export default {
+module.exports = {
   getUrlParams
 }

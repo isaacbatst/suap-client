@@ -1,11 +1,11 @@
-import handleToken from './classes/tokenHandler';
-import handleUrl from './classes/urlHandler';
+const handleToken = require('./classes/tokenHandler');
+const handleUrl = require('./classes/urlHandler');
 
-import * as API from './api';
+const API = require('./api');
 
-import * as URLS from './constants/urls'
+const URLS = require('./constants/urls');
 
-export default ({ clientID, redirectURI }) => {
+module.exports = ({ clientID, redirectURI }) => {
 
   const responseType = 'token';
   const grantType = 'authorization-code';
