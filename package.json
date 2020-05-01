@@ -1,6 +1,6 @@
 {
   "name": "suap-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cliente para conexão com a API do SUAP",
   "main": "index.js",
   "scripts": {
