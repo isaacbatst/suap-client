@@ -1,7 +1,7 @@
 {
   "name": "suap-client",
   "version": "0.1.2",
-  "description": "Cliente para conexão com a API do SUAP",
+  "description": "SUAP API client for JavaScript",
   "main": "/src/index.js",
   "scripts": {
     "test": "jest",
