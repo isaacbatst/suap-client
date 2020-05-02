@@ -12,7 +12,7 @@ const extractScope = () => {
     return match[1].split('+').join(' ');
   }
   return null;
-},
+}
 
 const extractDuration = () => {
   var match = document.location.hash.match(/expires_in=(\d+)/);
@@ -20,7 +20,7 @@ const extractDuration = () => {
     return Number(!!match && match[1]);
   }
   return 0;
-},
+}
 
 const getUrlParams = () => {
   return {
