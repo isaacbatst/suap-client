@@ -3,7 +3,7 @@
 > SUAP API client for JavaScript
 
 ## Warning
-We're actually at development phase, and we'll let you know when this lib become production ready.
+We're actually at development phase, so we'll let you know when this lib become production ready.
 
 ## Installation
 ``` npm install suap-client ```
@@ -22,5 +22,5 @@ This code is based on [this repo](https://github.com/ifrn-oficial/cliente_suap_j
 
 ## LICENSE
 
-[MIT](LICENCE)
+[MIT](LICENSE)
 
