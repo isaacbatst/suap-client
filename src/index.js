@@ -73,6 +73,5 @@ module.exports = ({ clientID, redirectURI }) => {
     isAuthenticated,
     getDataJSON,
     getToken,
-    init
   }
 };
