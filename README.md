@@ -3,7 +3,7 @@
 > SUAP API client for JavaScript
 
 ## Warning
-We're actually at development phase, so we'll let you know when this lib become production ready.
+We're actually at development phase, so we'll let you know when this lib gets production ready.
 
 ## Installation
 ``` npm install suap-client ```
